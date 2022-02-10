@@ -140,17 +140,143 @@
     }
     },
     {
-    "pk": 10,
+    "pk": 11,
     "model": "products.product",
     "fields": {
     "sku": "pp5002601115",
-    "name": "Rawlings 11.5 REV1X Series Glove 2022",
-    "description": "Standard fit pullover for keeping warm while running Stash pocket on left side to keep small necessities Window design on sleeve and cuffs to help you keep an eye on your fitness tracker",
-    "price": 399.99,
-    "category": 8,
-    "rating": 4.1,
-    "image_url": "https://www.dickssportinggoods.com/p/rawlings-11-5-rev1x-series-glove-2022-21rawmrv1x115cmlbsgl/21rawmrv1x115cmlbsgl",
-    "image": "Rawlings 11.5 REV1X Series Glove 2022.jpg"
+    "name": "Rawlings 11.75 HOH R2G Series Glove 2022",
+    "description": "Top 5% Heart of the Hide® Cowhide Leather Shell Partially Pre-Broken in R2G Technology Modeled After Pro-Style Patterns",
+    "price": 299.99,
+    "category": 6,
+    "rating": 4.5,
+    "image_url": "https://www.dickssportinggoods.com/p/rawlings-11-75-hoh-r2g-series-glove-2022-21rawmhhr2g1175tmsgl/21rawmhhr2g1175tmsgl",
+    "image": "Rawlings 11.75 HOH R2G Series Glove 2022.jpg"
     }
-    },    
+    },
+    {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Rawlings CIF Southern Section Official NFHS Baseball",
+    "description": "NFHS®-Approved Includes One Baseball Per Purchase Full Grain Leather Cover Cushioned Cork High Seams",
+    "price": 9.99,
+    "category": 6,
+    "rating": 4.8,
+    "image_url": "https://www.dickssportinggoods.com/p/rawlings-cif-southern-section-official-nfhs-baseball-22rawmcfssrwlngsfbsb/22rawmcfssrwlngsfbsb",
+    "image": "Rawlings CIF Southern Section Official NFHS Baseball.jpg"
+    }
+    },
+    {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Rawlings Senior MACH Baseball Batting Helmet w Adjustable Face Guard",
+    "description": "IMPAX Foam Technology 2-Piece Adaptor/Flap Combo Allows you to Adjust the Position of the Face Guard Compatible with ADJEXT / MEXT2 Accessory Piece",
+    "price": 74.99,
+    "category": 6,
+    "rating": 4.3,
+    "image_url": "https://www.dickssportinggoods.com/p/rawlings-senior-mach-baseball-batting-helmet-w-adjustable-face-guard-21rawumchdjstjwgrbth/21rawumchdjstjwgrbth?color=Royal",
+    "image": "Rawlings Senior MACH Baseball Batting Helmet w Adjustable Face Guard.jpg"
+    }
+    },
+    {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Schutt A11 Youth Football Helmet",
+    "description": "Don’t let your equipment hold back your potential on the field. The Schutt® Youth A11 Football Helmet features a sleeker, lower profile design which is lightweight for a more comfortable feel. Get the protection you require to safely play the game in a lighter, more comfortable feel.",
+    "price": 149.99,
+    "category": 9,
+    "rating": 4.8,
+    "image_url": "https://www.dickssportinggoods.com/p/schutt-a11-youth-football-helmet-20shuy11blckblckyfta/20shuy11blckblckyfta",
+    "image": "Schutt A11 Youth Football Helmet.jpg"
+    }
+    },
+    {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Schutt Youth Flex 5.2 Football Shoulder Pads",
+    "description": "Longer arch cut accommodates more positions Extended body cushions in both front and back                                                                       Provides extra coverage and protection",
+    "price": 69.99,
+    "category": 4,
+    "rating": 5.0,
+    "image_url": "https://www.dickssportinggoods.com/p/schutt-youth-flex-5-2-football-shoulder-pads-20shuyythyflx42shfta/20shuyythyflx42shfta",
+    "image": "Schutt Youth Flex 5.2 Football Shoulder Pads.jpg"
+    }
+    },
+    {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Shock Doctor Adult Gel Max Convertible Classic Fit Mouthguard",
+    "description": "The Shock Doctor™ Adult Gel Max Convertible Mouthguard has a Gel-Fit™ liner that custom molds to your teeth for a tight, comfortable fit. The Triple-Layer design features an integrated breathing channel and has a convertible tether that allows the mouthguard to be strapped or strapless. Crafted using a heavy-duty rubber Exoskeletal Shock Frame, the Gel Max Convertible Mouthguard offers the ultimate protection for any sport.",
+    "price": 13.99,
+    "category": 9,
+    "rating": 3.9,
+    "image_url": "https://www.dickssportinggoods.com/p/shock-doctor-adult-gel-max-convertible-classic-fit-mouthguard-16skraglmxdltcnvrspm/16skraglmxdltcnvrspm",
+    "image": "Shock Doctor Adult Gel Max Convertible Classic Fit Mouthguard.jpg"
+    }
+    },
+    {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Shock Doctor Mens Core Boxer Brief with Bio-Flex Cup",
+    "description": "Four-Way Stretch Fabric: Moves with your body while eliminating sweat Internal Mesh Cup Panel: Secure the cup and increases ventilation to improve cooling",
+    "price": 19.99,
+    "category": 4,
+    "rating": 3.5,
+    "image_url": "https://www.dickssportinggoods.com/p/shock-doctor-mens-core-boxer-brief-with-bio-flex-cup-21skrmbxrbrfwbflxspm/21skrmbxrbrfwbflxspm",
+    "image": "Shock Doctor Mens Core Boxer Brief with Bio-Flex Cup.jpg"
+    }
+    }, 
+    {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Spalding Cross Court Official Basketball 29.5",
+    "description": "Composite leather cover offers incredible feel and durability Can be used for indoor and outdoor play Size: 7 (29.5’’)",
+    "price": 29.99,
+    "category": 7,
+    "rating": 4.5,
+    "image_url": "https://www.dickssportinggoods.com/p/spalding-cross-court-official-basketball-29-5-20splacrsscrttfffbkb/20splacrsscrttfffbkb",
+    "image": "Spalding Cross Court Official Basketball 29.5.jpg"
+    }
+    },
+    {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Under Armour Mens Rival Fleece Hoodie",
+    "description": "Loose fit hoodie Adjustable, crossover hood Front kangaroo pocket Ribbed cuffs and hem Raglan sleeves",
+    "price": 45.00,
+    "category": 1,
+    "rating": 4.7,
+    "image_url": "https://www.dickssportinggoods.com/p/under-armour-mens-rival-fleece-hoodie-20uarmrvlflchdxxxapt/20uarmrvlflchdxxxapt",
+    "image": "Under Armour Mens Rival Fleece Hoodie.jpg"
+    }
+    },
+    {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Under Armour Mens Shorts",
+    "description": "Loose fit shorts built for your toughest training sessions Covered elastic waistband with internal drawcord for a secure fit Mesh hand pockets provide convenient storage",
+    "price": 25.00,
+    "category": 4,
+    "rating": 4.7,
+    "image_url": "https://www.dickssportinggoods.com/p/under-armour-mens-tech-graphic-shorts-17uarmtchgrphcshrapb/17uarmtchgrphcshrapb",
+    "image": "Under Armour Mens Shorts.jpg"
+    }
+    },             
 ]
