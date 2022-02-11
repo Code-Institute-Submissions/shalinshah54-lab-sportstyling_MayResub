@@ -278,5 +278,257 @@
     "image_url": "https://www.dickssportinggoods.com/p/under-armour-mens-tech-graphic-shorts-17uarmtchgrphcshrapb/17uarmtchgrphcshrapb",
     "image": "Under Armour Mens Shorts.jpg"
     }
-    },             
+    },
+    {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Under Armour Mens T-Shirt",
+    "description": "Loose fit short sleeve T-shirt for enhanced comfort during your workouts Updated, streamlined feel featuring a curved hem",
+    "price": 12.99,
+    "category": 3,
+    "rating": 4.5,
+    "image_url": "https://www.dickssportinggoods.com/p/under-armour-mens-tech-2-0-t-shirt-18uarmtchsstxxxxxapta/18uarmtchsstxxxxxapta",
+    "image": "Under Armour Mens T-Shirt.jpg"
+    }
+    },
+    {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Wilson Evolution Basketball 28.5",
+    "description": "The preferred ball of many high school and college athletes, the Wilson® Evolution® Game Basketball is among the top performers in its class. Cushion Core Carcass™ combines low-density sponge rubber and ultra-durable butyl rubber, producing a basketball with exceptional feel and unmatched durability. Constructed with a microfiber cover that is exclusively designed for the indoor court, the Wilson® Evolution® Game Basketball is a true champion.",
+    "price": 69.99,
+    "category": 7,
+    "rating": 4.8,
+    "image_url": "https://www.dickssportinggoods.com/p/wilson-evolution-basketball-28-5-18wiluvltnclrdlg2bkb/18wiluvltnclrdlg2bkb",
+    "image": "Wilson Evolution Basketball 28.5.jpg"
+    }
+    },
+    {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "adidas Womens Originals Color Wash No Show Socks 3 Pack",
+    "description": "No show height Super lightweight fit for comfort Unique colorwash dye Three different looks in one pack Moisture-wicking keeps your feet dry from sweat Country of Origin : Imported Style : OG COLORWASH NS Fabric : 62% Polyester, 35% Cotton, 2% Spandex, 1% Natural Latex Rubber",
+    "price": 20.00,
+    "category": 2,
+    "rating": 5.0,
+    "image_url": "https://www.dickssportinggoods.com/p/adidas-womens-originals-color-wash-no-show-socks-3-pack-20adiwwrgclrwshnssox/20adiwwrgclrwshnssox",
+    "image": "adidas Womens Originals Color Wash No Show Socks 3 Pack.jpg"
+    }
+    },
+    {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "adidas Womens Ultraboost 5.0 Running Shoes",
+    "description": "Primeknit upper offers a mix of support and flex Supportive heel counter Boost midsole",
+    "price": 152.99,
+    "category": 5,
+    "rating": 4.7,
+    "image_url": "https://www.dickssportinggoods.com/p/adidas-womens-ultraboost-5-0-running-shoes-21adiwltrbst50rknftw/21adiwltrbst50rknftw",
+    "image": "adidas Womens Ultraboost 5.0 Running Shoes.jpg"
+    }
+    },
+    {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Brooks Mens Adrenaline GTS 22 Running Shoes",
+    "description": "3D Fit Print technology in the upper provides structure that moves with you GuideRails® provide a holistic support system and align your body into its natural motion path In-Shoe Comfort: 100% DNA LOFT midsole combined with a segmented crash pad for a seamless transition from the heel to toe-off",
+    "price": 139.99,
+    "category": 5,
+    "rating": 4.7,
+    "image_url": "https://www.dickssportinggoods.com/p/brooks-mens-adrenaline-gts-22-running-shoes-21bromdrnlngts22bmns/21bromdrnlngts22bmns",
+    "image": "Brooks Mens Adrenaline GTS 22 Running Shoes.jpg"
+    }
+    },
+    {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "DSG Youth Soccer Shin Socks",
+    "description": "Watch as your little one tacks on another goal for their squad as they remain confident and protected wearing the DSG® Youth Soccer Shin Socks. Equipped with plastic internal guards and additional ankle support, these Shin Socks offer solid protection against impact while ensuring that the padding remains secure throughout each match.",
+    "price": 10.99,
+    "category": 10,
+    "rating": 3.9,
+    "image_url": "https://www.dickssportinggoods.com/p/dsg-youth-soccer-shin-socks-18ddiyshnsckgrnxxscs/18ddiyshnsckgrnxxscs",
+    "image": "DSG Youth Soccer Shin Socks.jpg"
+    }
+    },
+    {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Hydro Flask 24 oz. Standard Mouth Bottle with Flex Straw",
+    "description": "Take it here, or take it there, our new Flex Straw Cap bottles make hydration on the go even easier. Leakproof and insulated, it helps regulate temperature and stays put.",
+    "price": 39.95,
+    "category": 2,
+    "rating": 0,
+    "image_url": "https://www.dickssportinggoods.com/p/hydro-flask-24-ozstandard-mouth-bottle-with-flex-straw-21hflu24zsmflxstrhyd/21hflu24zsmflxstrhyd",
+    "image": "Hydro Flask 24 oz. Standard Mouth Bottle with Flex Straw.jpg"
+    }
+    },
+    {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "New Balance Womens 237 Shoes",
+    "description": "Suede and mesh upper offers a comfortable fit and a sporty look Overall design inspired by 70s heritage running shoes for a vintage vibe and added style Adjustable lace closure for customized fit",
+    "price": 84.99,
+    "category": 5,
+    "rating": 5.0,
+    "image_url": "https://www.dickssportinggoods.com/p/new-balance-womens-237-shoes-21nwbw237rswtrxxxftw/21nwbw237rswtrxxxftw",
+    "image": "New Balance Womens 237 Shoes.jpg"
+    }
+    },
+    {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Nike Adult Mercurial Lite Soccer Shin Guards",
+    "description": "Designed for the modern player, the Nike® Adult Mercurial Lite Soccer Shin Guards are a solid option for anyone looking to maintain speed without sacrificing quality protection. Equipped with a contoured shell that's supported by Dri-Fit™ sleeves, the Mercurial Lites deliver a secure, anatomical fit to reduce mid-match distractions, while its K-resin shell is backed with dense foam to absorb and dissipate impact when fighting for possession.",
+    "price": 22.00,
+    "category": 10,
+    "rating": 4.6,
+    "image_url": "https://www.dickssportinggoods.com/p/nike-adult-mercurial-lite-soccer-shin-guards-18nikamrcltbkwhf1scs/18nikamrcltbkwhf1scs",
+    "image": "Nike Adult Mercurial Lite Soccer Shin Guards.jpg"
+    }
+    },
+    {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Nike Brasilia Medium Training Duffle Bag",
+    "description": "The durable Nike Brasilia Duffel features a spacious main compartment for all your gear so you can feel prepared. Padded shoulder strap make it carrying comfortable, and multiple exterior pockets provide quick-grab convenience.",
+    "price": 40.00,
+    "category": 2,
+    "rating": 4.8,
+    "image_url": "https://www.dickssportinggoods.com/p/nike-brasilia-medium-training-duffle-bag-19nikunkbrslmdff9trv/19nikunkbrslmdff9trv",
+    "image": "Nike Brasilia Medium Training Duffle Bag.jpg"
+    }
+    },
+    {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Nike Dri-FIT Everyday Plus Cushion Training Crew Socks - 6 Pack",
+    "description": "Show off your skills at the gym or on the field in the Nike® Dri-FIT® Everyday Plus Cushion Training Crew Socks. Constructed of 100% textile materials, these socks are equipped with Dri-FIT® technology to wick away sweat to keep your feet comfortable and dry.",
+    "price": 22.00,
+    "category": 2,
+    "rating": 4.5,
+    "image_url": "https://www.dickssportinggoods.com/p/nike-dri-fit-everyday-plus-cushion-training-crew-socks-6-pack-18nika6pkdfcrwxxxapa/18nika6pkdfcrwxxxapa",
+    "image": "Nike Dri-FIT Everyday Plus Cushion Training Crew Socks - 6 Pack.jpg"
+    }
+    },
+    {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Nike Everyday Cushioned Training Crew Socks – 6 Pack",
+    "description": "Crew silhouette covers your ankle and lower calf Ribbed arch band offers a supportive feel Thick terry sole provides comfort and impact absorption",
+    "price": 20.00,
+    "category": 2,
+    "rating": 4.6,
+    "image_url": "https://www.dickssportinggoods.com/p/nike-everyday-cushioned-training-crew-socks-6-pack-20nikmnkvrydycshcapa/20nikmnkvrydycshcapa",
+    "image": "Nike Everyday Cushioned Training Crew Socks – 6 Pack.jpg"
+    }
+    },
+    {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Nike Mens Air Zoom Pegasus 38 Running Shoes",
+    "description": "Mesh in the upper feels breathable and plush while stretching with your foot for a comfortable shape and fit Wider forefoot means more space for your toes, while the shoe's fit maintains the comfortable feel you expect from the Pegasus Midfoot webbing gives a snug fit when you tighten the laces",
+    "price": 119.99,
+    "category": 8,
+    "rating": 4.3,
+    "image_url": "https://www.dickssportinggoods.com/p/nike-mens-air-zoom-pegasus-38-running-shoes-21nikmpgss38blckprnn/21nikmpgss38blckprnn",
+    "image": "Nike Mens Air Zoom Pegasus 38 Running Shoes.jpg"
+    }
+    },
+    {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Nike Mens Club Fleece Graphic Shorts",
+    "description": "Combine style and comfort with the Nike® Men’s Club Fleece Graphic Shorts. These street-ready style shorts are crafted from soft fleece with a comfortable elastic waistband.",
+    "price": 46.00,
+    "category": 1,
+    "rating": 4.6,
+    "image_url": "https://www.dickssportinggoods.com/p/nike-mens-club-fleece-graphic-shorts-19nikmmnswclbshrtnfb/19nikmmnswclbshrtnfb",
+    "image": "Nike Mens Club Fleece Graphic Shorts.jpg"
+    }
+    },
+    {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Nike Strike Soccer Ball",
+    "description": "The Nike® Strike Soccer Ball is designed to put the ball right where you want it 12-Panel machine-stitched textured casing stabilizes the grooves while also offering a consistent touch and feel                                                                               Aerow Trac grooves allow consistent spin when the ball is in the air",
+    "price": 30.00,
+    "category": 10,
+    "rating": 3.9,
+    "image_url": "https://www.dickssportinggoods.com/p/nike-strike-soccer-ball-21nikunkstrk5crmfscb/21nikunkstrk5crmfscb",
+    "image": "Nike Strike Soccer Ball.jpg"
+    }
+    },
+    {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "Reusch Adult Prisma Prime S1 Evolution Finger Support Soccer Goalkeepe",
+    "description": "Stand tall against the opposition's top forward and maintain the clean sheet by strapping on the Reusch® Prisma Prime S1 Evolution Soccer Goalkeeper Gloves. Utilizing Reusch®'s latest Evolution ESS Cut™ that combines a rolled finger and Expanse Cut™ design, these keeper gloves ensure that your fingers are always in perfect position to catch, throw, and parry hard shots away with comfort and confidence.",
+    "price": 84.99,
+    "category": 10,
+    "rating": 3.2,
+    "image_url": "https://www.dickssportinggoods.com/p/reusch-adult-prisma-prime-s1-evolution-finger-support-soccer-goalkeeper-gloves-17reuaprsmprms1vfscg/17reuaprsmprms1vfscg",
+    "image": "Reusch Adult Prisma Prime S1 Evolution Finger Support Soccer Goalkeepe.jpg"
+    }
+    },
+    {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "The North Face Jester Backpack",
+    "description": "Durable water-repellent finish adds protection and is free of PFC's",
+    "price": 69.00,
+    "category": 2,
+    "rating": 4.8,
+    "image_url": "https://www.dickssportinggoods.com/p/the-north-face-jester-backpack-20tnoumjstr20xxxxtrv/20tnoumjstr20xxxxtrv",
+    "image": "The North Face Jester Backpack.jpg"
+    }
+    },
+    {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+    "sku": "pp5002601115",
+    "name": "YETI 26 oz. Rambler Bottle with Chug Cap",
+    "description": "Keeps your beverage hot or cold longer than traditional drinkware Double-wall vacuum insulation keeps your beverage cold longer Puncture-resistant and rust-resistant for lasting use Dishwasher safe for easy cleaning",
+    "price": 40.00,
+    "category": 2,
+    "rating": 4.5,
+    "image_url": "https://www.dickssportinggoods.com/p/yeti-26-ozrambler-bottle-with-chug-cap-20yeturmblr26zbtthyd/20yeturmblr26zbtthyd",
+    "image": "YETI 26 oz. Rambler Bottle with Chug Cap.jpg"
+    }
+    }                            
 ]
