@@ -60,6 +60,10 @@ body {
     background: #000 !important;
 }
 
+.display-4 {
+    margin-top: 175px;
+}
+
 /* --------------------------------- Media queries */
 
 /* Slightly larger container on xl screens */
