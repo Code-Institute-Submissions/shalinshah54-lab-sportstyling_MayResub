@@ -110,7 +110,7 @@ body {
 }
 
 /* mobile display */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .header-container {
         padding-top: 116px;
     }
