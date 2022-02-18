@@ -74,13 +74,13 @@
     "model": "products.product",
     "fields": {
     "sku": "pp5002260206",
-    "name": "Nike Mens Sportswear Joggers",
-    "description": "Loose fit hoodie Lightly brushed fabric for an ultra-soft feeling Ribbed cuffs and hem block out the chill Hood offers a drawstring for adjustable coverage",
-    "price": 55.99,
-    "category": 3,
-    "rating": 4.7,
-    "image_url": "https://www.dickssportinggoods.com/p/nike-mens-futura-club-fleece-hoodie-19nikmmnswclbhdpbnfta/19nikmmnswclbhdpbnfta",
-    "image": "Nike Mens Sportswear Joggers"
+    "name": "Jordan Kids Grade School Zion 1 Basketball Shoes",
+    "description": "Flexible tongue with targeted padding helps ease lace pressure and provides a snug fit over the top of the foot Forefoot fit band plus higher sidewalls helps keep you stable Lightweight mesh toe area Vertical Zion logo",
+    "price": 89.99,
+    "category": 5,
+    "rating": 0.0,
+    "image_url": "https://www.dickssportinggoods.com/p/jordan-kids-grade-school-zion-1-basketball-shoes-22jdnbznprjctzbbgkds/22jdnbznprjctzbbgkds?categoryId=1410569",
+    "image": "Jordan Kids Grade School Zion 1 Basketball Shoes.jpg"
     }
     },
     {
