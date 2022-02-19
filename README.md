@@ -66,12 +66,40 @@ Otherwise they can checkout and see there order confirmation.
 
 #### Functional Requirements
 
-Functional requirements include: a user-friendly navigation menu, a search bar, properly display of products, working templates for registration, 
+Functional requirements include: a user-friendly navigation menu, a search bar, properly display of products onclicking shop now button, working templates for registration, login. The product can be added to the card by choosing which product if it requires size then you can select that, you can select as much quantity you need. There is a add to cart buttton that can send your item to the shopping cart. On clicking on the cart buttton you can easily review your order make changes if needed otherwise safely click on checkout. Here you are redirected to the form page where the user has fill the information and the credit card info. And can place your order and see the confirmation on the next page with all your information added in the checkout form. 
 
 #### Content Requirements
 
-The content of the site should include a header and image, as well as a navigation menu. A search bar should allow users to search for services types. For the services there are specific categories from the users chooses from  and a short description of the service, adding your contact information through contact number and email address and the date on which you need the services to be rendered. An input field for users will allow them to select specific services. There is a profile page with the user's profile name card other then that is currently empty.
+The content of the site should include a header and image, as well as a dropdown navigation menu. A search bar should allow users to search for prducts. There is my account link which allows to register and login. There is profile link which shows your history purchases. There is cart which redirects you to the checkout page. There is a checkout form where the user has to fill out and on checkout and order confirmation is given via email and the user can see it in the profile also. User can search the products by categories, by price, by alphabetical order or by Deals. The products are sorted accordingly. There is product management for the admin user where they can mannually enter the product to the site and remove the product if needed. They can change the price if there is a deal update images. 
 
 ### Structures
 
-The website is structured to allow new visitors to view specific services after you register and login. Once they open the landing page they can other users requests, which will give them idea create and view their profile page of existing services. Once logged in, users are able to click on the main header, which allows them to search for different services, as well as add and edit their own services. In addition, the users are able to save the registered services. Once the user wishes to end their session, they can click the 'Log Out' option in the menu to return to the home page.
+In this e-com site the main structure is to let the users come and shop for there sporting needs. They browse through the site and see all the different products and select them simply add them to the cart and checkout. Just add all the required info and checkout. The user can log back in and check there past history in the profile section. The super user is the only one who can add, edit and delete a product change its description and update the price.
+
+
+### Skeleton
+
+The skeleton of the website will utilise Bootstrap for the CSS layout of the pages, font awesome and google fonts are used. A dropdown navigation menu will allow users to go to their choose there category of items like to search for. The main landing page will function to allow users to select numerous products by click on shop now, and seeing the products and added them to your cart. Used the authall forms for registration and login. Stripe is used for the credit card varification and added the payment type. Webhook Handler are used if the user accidently closes the tab in the ordering process it still takes care of the order without any issues. Heroku is used for deployment and ASW for storing the static part of the site along with media. Crispy forms are used in the product management for adding, editing and updating data.
+
+### Surface
+
+The surface design of the website will also utilise bootstrap CSS to provide styling for the components of the website.
+The first step for my research was visiting sites and knowing different layouts, elements in navigation bar, images, products there details and pricing which are stored in the product.json. Media folder holds all the needed images for the site.
+
+### _Colors_ :
+
+- Black
+- White
+- Grey
+- Green
+- Alert colors have been added like red, green, yellow and blue
+
+### _Typography_ :
+
+- Lato
+
+ Google Fonts is used to style the text using the 'Lato' font used throughtout the site.
+
+ ## Wireframes
+
+- As an initial process of the project design, wireframes were created for desktop and mobile screen sizes using [Figma Wireframe](https://www.figma.com/file/WbKaj1kTqyEGyiKLDmUvlh/service-beyond).
