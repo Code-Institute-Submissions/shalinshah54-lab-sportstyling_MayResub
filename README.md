@@ -1,4 +1,4 @@
-![image](static/images/)
+
 
 # SportStyling
 
@@ -231,13 +231,13 @@ which was found that stripe uses credit card no.4242 4242 4242 4242 in the testi
 ## Code Validation
 
 - [W3C Markup Validation](https://validator.w3.org/#validate_by_input) 
-  - ![HTML validation](static/validation and issues/html-validator.png)
+  - ![HTML validation](static/images/html-validator.png)
   - W3C Markup Validation was used throughout the process to validate HTML codes
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) 
-  - ![Css validation](static/validation and issues/css-validator.png)
+  - ![Css validation](static/images/css-validator.png)
   - W3C CSS Validation was used to vaildate CSS codes
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse) 
-  - ![Lighthouse](static/validation and issues/lighthouse.png) 
+  - ![Lighthouse](static/images/lighthouse.png) 
 
 
     
