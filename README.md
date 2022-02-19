@@ -177,7 +177,6 @@ The first step for my research was visiting sites and knowing different layouts,
 
 
 ## Issues and Debugging
-
 - 
 
 
