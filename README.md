@@ -141,38 +141,44 @@ The first step for my research was visiting sites and knowing different layouts,
 - Small footer is created to hold the copyright information of the website which is final section of the page and sit at the bottom and each page of the website contain same footer with same copyright information.
 
 #### Home Page
-- The home page contains a logo which is link back to the home page from any pages being used. There are nav links on the right side which only contains three links prior to logging in. Once logged in the session users will see the profile, add services and logout links along with the home link still there. The page also contains the search which will search for the category name and the description for all the services being added. There is an image for show all the services being provided by the company. On the lower part there is services field which shows all the services being posted. The page also contains a basic footer which shows the copyrights.
+- For the first time user landing on the home page will appear like. ![](static/images/homepage.png)
+- On clicking on the shop now button it will redirect the user to the product page.
 
-#### Search field
-- By inputing the text on the search line and clicking on the search, if the search text is there in the database the search will show a result under the services field. There is a reset button next to the search which will redirect you back the home page by reseting the field.
+#### Product Page
+- After directed to the products page the user will come accross all the products and will be able to scroll down and view everything. ![](static/images/products.png)
+- On clicking on the image the description page will appear and that contains the image, description and the quantity and size of the product and just clicking on the add to bad or you can keep shopping.
 
-#### Services field
-- In this field the posted services will be visible to all the users. There is a card which appears the category name, created by and the date the job needs to be performed. On clicking on the activator on the right side which will activate the next card by sliding upwards and the full description for the post job will be shown. There is a close button to close the card and if the text or description is too long then a scroll down is there to view properly. Bottom if the slide card there is an edit and delete buttons only functioning when the users is in session and can only deleted or upgraded by created users. 
+#### Checkout
+- The checkout page consist of checkout and there is item in the bag and can be edited removed or updated.![](static/images/checkout.png) 
+- On clicking on the checkout the checkout page will appear and the form will be there to fill out and after entering the card and checking out will give a order confirmation.
 
-#### Registration
-- On the registration page there is a simple form which has two required fields. First is the username and the second is the password 
-Both are required fields and by clicking on the button it is validated and message appears on the top. If the user successfully logs in then the information is stored in the database. Additionally this page utilize Werkzeuz security which is python library to hash the password and stored in database securley. Underneath the registration form small text with login option also provided which allow user to login directly if they are already registered however select register option by mistake. This allow user to peform registration and login task from the same page without having to navigate to the exact page.
+#### Confirmation
+- On the confirmation page the user will see all the information that they entered ![](static/images/order-confirmation.png)
+- There is going to be an confirmation email which was entered during checkout.
 
 
-#### Login page
-- This page looks very identical to register page and contains similar options however only accessible to those user who is already registered to the page, user simply need to input their username and password to login to the page, once login successful flash message will display on screen to welcome the user and user will be redirected to their own profile. This page utilize some python functionality to check and verify the users input and only allow user to login if their details matched with what they have provided while registration. Additionally python will display the flash message to inform user if username or password they supplied is not found and redirect the user back to login page again. Underneath the login form small text with registration option also provided which allow user to register directly if they are not registered however select login option by mistake. This allow user to peform registration and login task from the same page without having to navigate to the exact page.
+#### Regisration and Login page
+- A new user can register and enter there email, username and password and signup.
+- A login page appear and the user can login and check there profile.
+- The profile contains the past order history.
+- In the profile the user can change and edit there information.
 
-### Add Services page
-- This option is visible to the user only once they are logged into the page, this page allow user to add their own job by completing the form provided and then hit submit button. input elements in the forms need to fullfll certain criteria and if supplied input do not match certain criteria or left empty then warning message will appear below input field and colour of the bottom border will change to red, also required attribute is utilize on this form to ensure user are not able to submit the form without completing, if any of the field left empty and hit submit button then required attribute trigger and let user knows that they must complete the field. Python funtionality also added to this page to conduct some check to ensure that only user are able to add the job. once user select the option to add new job then python function will excute and do some checks and only let user to add the job if user in the session and user who logged in are the same person, otherwise python will immediatley redirect user to login page and display flash message accordingly. Javascript in the form of jQuery is utilized to validate the form and display and hide error message accordingly while user completing the form. Once user added the information, python will then send the information to mongoDB using insertOne method and also render the information in the home page
+### Product Management page
+- The product Management is the page only accesses able for the super user/admin. 
+- Here the admin can add the product mannually. Once added the admin can delete it change the prices on it and the update the description.
 
-### Profile page
-- This option also only visible to the user once they are logged in. Python function will execute once user select this option and check to verify the user first and if person selecting the option is really a user then python will allow user to access the page and display welcome message to the user, if user is not verified then python will redirect user to the login page and display flash message accordingly. Once user verified and inside the page user able to see all the job added to the page by themself and also able to edit and delete if they wish to do by just clicking the buttons brovided below job images.
-
-#### Edit/delete job
-- User can edit or delete their own job once they are inside their own account, every job added by user will be shown in My account page with job images and job title, each job has two options for user which are edit and delete. Once user select edit job option then python function will trigger to check wether person trying to edit the job is really a user or not, if not then user will be redirected to login page aagin with correct flash messaeg and if the person is really the user then python will populate the form with pre-field data in the input field and allow user to update their job information. Similar to add new job form, edit job form also need to pass the input validation check which is done by utilizing Javascript in the form of jQuery. once inpt field validate and user select the update button then all the updated information will be store in the database which is done by using updateOne method.
-  Additionally user can also delete their own job, once user select delete button python will trigger the delete function and run if/else statement to check user's details and let user to act accordingly. First python will check if user is in the session or not then second step python will check if user logged in is the similar user who add this job. if both condition is satisfied they only user will be able to delete the job otherwise python will redirect the user to login page and display flash message accordingly
-  python use mongoDB remove() method to perform delete job once condition satisfied. Once user select the delete button, modal will trigger and display warning message on screen to allow user to confirm their delete request or cancel, purpose of this modal is to prevent deleting the job straightway if user select the delete button by mistake or in case user wants to change their mind once after delete button clicked. 
+#### Edit/delete
+- The admin can edit and delete the item from the shop, by editing the admin will be redirected to the products management form where they can edit and update it.
+- If the product doesn't exist the admin can delete it and remove it from the database since its connected.
+   
 
 ### Logout
-- This option only visible to the user once they are logged into the page, user can simply select the logout option and they will be loggout from the page, python function will execute once user select logout option and redirect them to login page immediately and display flash message accordingly.
+- By logging out the person is still able to browse the accross the site.
+
 
 ## Issues and Debugging
 
+- 
 
 
 # Technologies Used
@@ -546,3 +552,18 @@ Before beginning these steps, go to `settings.py` and change the `DEFAULT_FROM_E
 11. Highlight your chosen site from '**Available Sites**', move it into '**Chosen Sites**', and click '**Save**'.
 
 [Back to the top](#deployment-steps)
+
+## Credits
+- I would like to thank CI mini project Tim Nelson the Tutor which excellently explained the project which made things very clear. 
+- I would like to thank Alexander Grid a CODE INSTITUTE student for inspiring me work on this project.
+
+## Media
+- All the images are from [unsplash](https://unsplash.com/)
+- All the images for products [dick's sporting good](www.dickssportinggoods.com)
+
+## Acknowledgements
+- I would like to thank my mentor Sandeep Agarval for his guidance and advice on this project before submission.
+- Thanks to everyone on Slack Community for always being on-hand with requests and support.
+- Thanks to everyone on CI tutor support team for always providing with the support and guidance.
+- I would like to thank Alexander Grid from Code institute for inspiring me and giving me ideas for this site.
+- Thanks to everyone from Student Care team (CI) for keeping me update with all changes such as tutor support availibility holiday period and most importantly checking regularly on my progress and always ready to support on my study.
