@@ -61,4 +61,17 @@ The Sport Styling is an online e-com site with products to shop from by using fr
 
 ### Scope
 
-The website is interactive and allows users to shop around see the products they like and easily add them to the cart. Once added to the cart if the shopper needs to edit or delete the item from the cart they can easily do so. 
+The website is interactive and allows users to shop around see the products they like and easily add them to the cart. Once added to the cart if the shopper need to edit or delete the item from the cart they can easily do so.
+Otherwise they can checkout and see there order confirmation. 
+
+#### Functional Requirements
+
+Functional requirements include: a user-friendly navigation menu, a search bar, properly display of products, working templates for registration, 
+
+#### Content Requirements
+
+The content of the site should include a header and image, as well as a navigation menu. A search bar should allow users to search for services types. For the services there are specific categories from the users chooses from  and a short description of the service, adding your contact information through contact number and email address and the date on which you need the services to be rendered. An input field for users will allow them to select specific services. There is a profile page with the user's profile name card other then that is currently empty.
+
+### Structures
+
+The website is structured to allow new visitors to view specific services after you register and login. Once they open the landing page they can other users requests, which will give them idea create and view their profile page of existing services. Once logged in, users are able to click on the main header, which allows them to search for different services, as well as add and edit their own services. In addition, the users are able to save the registered services. Once the user wishes to end their session, they can click the 'Log Out' option in the menu to return to the home page.
