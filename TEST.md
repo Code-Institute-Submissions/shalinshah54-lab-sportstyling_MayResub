@@ -138,37 +138,24 @@ This project was required to be totally responsive, and mobile friendly therefor
 - You are allowed to edit your personal information and update them as you need it.
 
 ### Profile
-- Once you login you will be redirected to the profile page or you can just simply click on the profile link in the navbar. 
-- The profile page only is displaying users name.
-- I would like to add more details with this page regarding the categories entered where the user can directly delete and edit there posted products. 
+- After login in you'll see your profile in there.
+- On clicking on that the new page will display your personal information which you have added and the past purchase history.
+- You are allowed to edit your personal information and update them as you need it.
 
-### Add Services
-- Now if you need to add new products simply click on the add products link in the navbar. Which will take you to the Add Services page.
-- This a form that is a required field. 
-- It begans with a drop down that displays all the catagories which this company takes care of.
-- It needed a special validation using JS which was taken from the CI learning tutorials.
-- After that there is a Enter name section which is a required field.
-- There is a Job Description where the user can enter detailed text on what products they need around there house. 
-- There is next field which is contact number where the company can contact the person to get better information from the user. 
-- Then next field is email and the user can enter it and the company can email the user if needed.
-- There is date picker which the user can pick an exact date for which the service can be done. The date can be clear by clicking on the clear or selected by clicking on the select button.
-- Once all the required fields have been entered with there respective validation then the user can click on the Add Task.
-- By doing so your added service will be posted on the home page under the products field.
-- You can see you service which will be posted all the way in the bottom of the home page with your selected category name, your date you selected and the your name. So you can see it was created by you.
-- Once you find your post you can click on the activator button which is on the right side of the card with an icon of three vertical dots. 
-- By doing that another card will slide over from bottom with more fields that you entered. 
-- There is a close icon on the top right to close that card and return to the previous card. 
-- On the description card there are two buttons on the bottom which can only be appears once the user is in session. 
-
-### edit Services
-- Incase the users service needs to be edited just click on the edit and it will direct you to the add products page which will show your entered details. The user can edit make changes just need to click on save button to see the updated service which will be posted back on the bottom on the home page.
-- If you want to cancel any changes made just click on the cancel button and there will be no changes made to your old post. 
-
-### Delete 
-- Now on the products field in the card where the description is there is delete button which will completely delete your posted products.
+### Product Management
+- This section can only be used by the super user as an admin. 
+- This page consists a form and that can be filled out by the admin for adding the products.
+- Once the product is added the admin is the person who is able to delete and edit the products.
+- The admin can change the price if there is a sale or for any reason.
+- The admin doesnt have to remove the product from the product management he can remove from the products page.
+ 
+### edit and delete
+- When the admin edits the product the old description appears and can be easily updated.
+- Once the edit is finished the updated product is display back to the product page with the changes made.
+- The admin can completely delete the product from the shop.
 
 ### Logout
-- Once your done with all this you can simply logout but can see your posted service but again you cannot edit or delete it because your logged out of the session. 
+- Even after login out the user can still browse through the site without logging backin.
 
 ## Issues and Debugging
 - The images and the text across all the pages had issues with the margin-top ![](static/images/image-margin.png)
@@ -178,3 +165,6 @@ This project was required to be totally responsive, and mobile friendly therefor
 - There was an issue with the CRSF ![](static/images/csrf.png) which was fixed by adding `{% csrf_token %}`.
 - Bug with the payment issue ![](static/images/payment.png)
 which was found that stripe uses credit card no.4242 4242 4242 4242 in the testing version.
+- Seeing the products page where the logo-font there is alot of whitespace this was fixed by changing the css my-5 : 3rems, For now the margin is working fine.
+
+
