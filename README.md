@@ -177,7 +177,13 @@ The first step for my research was visiting sites and knowing different layouts,
 
 
 ## Issues and Debugging
-- 
+- The images and the text across all the pages had issues with the margin-top ![](static/images/image-margin.png)
+![](static/images/text-margin.png).
+- This was fixed by changing the bootstrap md-3 to my-5. ![](static/images/my-5.png).
+- Bug with the image not generating from the database. ![](static/images/no-image.png), it was fixed by corrected by jpg which was not added.
+- There was an issue with the CRSF ![](static/images/csrf.png) which was fixed by adding `{% csrf_token %}`.
+- Bug with the payment issue ![](static/images/payment.png)
+which was found that stripe uses credit card no.4242 4242 4242 4242 in the testing version.
 
 
 # Technologies Used
