@@ -166,5 +166,7 @@ This project was required to be totally responsive, and mobile friendly therefor
 - Bug with the payment issue ![](static/images/payment.png)
 which was found that stripe uses credit card no.4242 4242 4242 4242 in the testing version.
 - Seeing the products page where the logo-font there is alot of whitespace this was fixed by changing the css my-5 : 3rems, For now the margin is working fine.
+- Found the Issue by the Assesser where my delpoyed site  presented with Server Error (500).
+- This Issue by partially resolved with the help of the tutor. I had to remove the extra block content form the index.html file. And by removing the 
 
 
