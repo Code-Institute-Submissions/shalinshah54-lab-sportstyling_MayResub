@@ -39,7 +39,7 @@
                             <div class="item">
                                 <div class="pad15 ">
                                     <div class="carousel-image-container">
-                                        {% if product.product_image.all.0.image %}
+                                        {% if product.image %}
                                             <a href="{% url 'product_detail' product.id %}">
                                                 <img src="{{ product.image.url }}"
                                                      alt="{{ product.name }}" width="200" height="200">
