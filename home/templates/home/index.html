@@ -41,11 +41,11 @@
                                     <div class="carousel-image-container">
                                         {% if product.product_image.all.0.image %}
                                             <a href="{% url 'product_detail' product.id %}">
-                                                <img src="{{ product.product_image.all.0.image_url }}"
+                                                <img src="{{ product.image.url }}"
                                                      alt="{{ product.name }}" width="200" height="200">
                                             </a>
                                         {% else %}
-                                            <img src="{{ MEDIA_URL }}200x200.webp" alt="{{ product.name }}"
+                                            <img src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}"
                                                  class="" width="200" height="200">
                                         {% endif %}
                                     </div>
@@ -61,7 +61,4 @@
     </div>
 {% endblock %}
 
-{% block postloadjs %}
-    {{ block.super }}
-    <script src="{% static 'home/js/carousel.js' %}"></script>
-{% endblock %}
+
