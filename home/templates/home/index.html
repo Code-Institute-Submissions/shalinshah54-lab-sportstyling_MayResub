@@ -44,6 +44,9 @@
                                         <img src="{{ product.image.url }}"
                                              alt="{{ product.name }}" width="200" height="200">
                                     </a>
+                                    <div class="card-body pb-0 text-lg text-black">
+                                        <p class="mb-0">{{ product.name }}</p>
+                                    </div>
                                 {% else %}
                                     <img src="{{ MEDIA_URL }}home-background.jpg" alt="{{ product.name }}"
                                          class="card-img-top" width="200" height="200">
@@ -58,7 +61,7 @@
                     <span class="sr-only">Previous</span>
                   </a>
                   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon" aria-hidden= "true"></span>
                     <span class="sr-only">Next</span>
                   </a>
               </div>
