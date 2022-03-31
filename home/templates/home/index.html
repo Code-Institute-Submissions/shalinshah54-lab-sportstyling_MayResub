@@ -29,15 +29,15 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid carousel">
         <p class="h1 text-lg-center text-black">Featured</p>
         <div class="container pb-2">
             <div id="carouselControls" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="1000" >
-                <div class="carousel-inner">
+                <div class="carousel-inner slider">
                     {% for product in products %}
                     <div class="carousel-item active h-100">
                     <div class="card p-2 m-4">
-                            <div class="carousel-image-container">
+                            <div class="carousel-image text-center">
                                 {% if product.image %}
                                     <a href="{% url 'product_detail' product.id %}">
                                         <img src="{{ product.image.url }}"
@@ -69,4 +69,7 @@
         
 {% endblock %}
 
-
+{% block postloadjs %}
+    {{ block.super }}
+    <script src="{% static 'home/js/carousel.js' %}"></script>
+{% endblock %}
