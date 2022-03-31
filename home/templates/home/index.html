@@ -29,15 +29,14 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid pb-5 extra-margin-top">
+    <div class="container-fluid">
         <p class="h1 text-center text-black">Featured</p>
         <div class="row">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner pb-5">
                     {% for product in products %}
-                  <div class="carousel-item d-flex justif active">
-                    <div class="item">
-                        <div class="pad15 ">
+                  <div class="carousel-item d-flex justify  active">
+                    <div class="card mx-3 px-2">
                             <div class="carousel-image-container">
                                 {% if product.image %}
                                     <a href="{% url 'product_detail' product.id %}">
@@ -49,7 +48,6 @@
                                          class="card-img-top" width="200" height="200">
                                 {% endif %}
                             </div>
-                        </div>
                     </div>
             {% endfor %}
                 </div>
