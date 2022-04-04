@@ -303,3 +303,10 @@ span.carousel-control-next-icon {
         height: calc(100vh - 116px);
     }
 }
+
+@media (max-width: 200px){
+    .shop-now-button {
+        min-width: 225px;
+    }
+
+}

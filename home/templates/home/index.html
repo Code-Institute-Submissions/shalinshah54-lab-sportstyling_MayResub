@@ -17,10 +17,11 @@
 {% block content %}
     <div class="container h-100">
         <div class="row h-100">
-            <div class="col-7 col-md-6 mt-5">
-                <h2 class="display-4 logo-font text-black">
+            <div class="col-12 col-md-6 my-5">
+                <h2 class="display-5 logo-font text-black">
                     Stay Active with Sport<strong>Styling</strong>
                 </h2>
+                <h3 class="text-left text-lg text-black">All your sporting need right here just a click away.</h3>
                 <div class="my-5">
                     <h4>
                         <a href="{% url 'products' %}" class="shop-now-button btn btn-lg round-0 text-uppercase py-3">Shop Now</a>
@@ -32,13 +33,13 @@
     <div class="container-fluid carousel">
         <p class="h1 text-lg-center text-black">Featured</p>
         <p class="h3 text-center text-black">Find from our great sports collection with better deals and great products</p> 
-        <div class="container pb-2">
-            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="500" >
+        <div class="container p-2">
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="1000" >
                 <div class="carousel-inner slider">
                     <!-- I'm just checking that the image might be adding to the images :) - Rebecca -->
                     {% for product in products %}
                     <div class="carousel-item {% if forloop.first %} active {% endif %}">
-                    <div class="card p-2 m-4">
+                    <div class="card p-3">
                             <div class="carousel-image text-center">
                                 {% if product.image %}
                                     <a href="{% url 'product_detail' product.id %}">
