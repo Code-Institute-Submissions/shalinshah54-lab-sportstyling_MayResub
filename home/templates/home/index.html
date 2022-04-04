@@ -17,7 +17,7 @@
 {% block content %}
     <div class="container h-100">
         <div class="row h-100">
-            <div class="col-7 col-md-6 my-5">
+            <div class="col-7 col-md-6 mt-5">
                 <h2 class="display-4 logo-font text-black">
                     Stay Active with Sport<strong>Styling</strong>
                 </h2>
@@ -31,8 +31,9 @@
     </div>
     <div class="container-fluid carousel">
         <p class="h1 text-lg-center text-black">Featured</p>
+        <p class="h3 text-center text-black">Find from our great sports collection with better deals and great products</p> 
         <div class="container pb-2">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="1000" >
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="500" >
                 <div class="carousel-inner slider">
                     <!-- I'm just checking that the image might be adding to the images :) - Rebecca -->
                     {% for product in products %}
@@ -56,17 +57,15 @@
                     </div>
             {% endfor %}
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                   </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden= "true"></span>
                     <span class="sr-only">Next</span>
                   </a>
-              </div>
-                <!-- <button class="leftLst" aria-label="scroll gallery image left"><i class="fas fa-chevron-left" ></i></button>
-                <button class="rightLst" aria-label="scroll gallery image right"><i class="fas fa-chevron-right"></i></button> -->
+                </div>
             </div>
         </div>
         </div>
