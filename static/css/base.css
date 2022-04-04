@@ -7,7 +7,6 @@ body {
     background-size: cover;
     height: calc(80vh - 164px);
     color: #555;
-    font-family: 'Lato';
 }
 
 /* from Bulma */
@@ -301,6 +300,12 @@ span.carousel-control-next-icon {
 
     body {
         height: calc(100vh - 116px);
+    }
+}
+
+@media (max-width: 210px){
+    .my-5 {
+        margin-top: 8rem;
     }
 }
 
