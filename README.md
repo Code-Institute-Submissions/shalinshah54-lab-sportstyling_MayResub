@@ -112,6 +112,7 @@ The first step for my research was visiting sites and knowing different layouts,
   - Checkout
   - Order Confirmation
   - Profile
+  - Carousel
   - Footer
 
 #### Navbar
@@ -136,13 +137,19 @@ The first step for my research was visiting sites and knowing different layouts,
 - Once the user checks out the message and the order confirmation appears which shows all the details of the purchased items.
 - The user can login and under the profile can review there history of purchases.
 - For the product management there is a form where the admin can make changes to the product add product and delete the product.
+- There is a carousel on the main page which slides 1000ms. It can mannually change with prev and next button. Which displays all the images from the store where if the user likes any product can directly click on it link you to the product page.
 
 #### Footer
 - Small footer is created to hold the copyright information of the website which is final section of the page and sit at the bottom and each page of the website contain same footer with same copyright information.
+- There is a social media links added with the company name which also works as link to the home page. This can help the user to navigate back to the home page without scrolling back up.
+
 
 #### Home Page
 - For the first time user landing on the home page will appear like. ![](static/images/homepage.png)
 - On clicking on the shop now button it will redirect the user to the product page.
+
+#### Carousel
+- There is a carousel with the product images. ![](static/images/carousel.png)
 
 #### Product Page
 - After directed to the products page the user will come accross all the products and will be able to scroll down and view everything. ![](static/images/products.png)
@@ -184,6 +191,11 @@ The first step for my research was visiting sites and knowing different layouts,
 - There was an issue with the CRSF ![](static/images/csrf.png) which was fixed by adding `{% csrf_token %}`.
 - Bug with the payment issue ![](static/images/payment.png)
 which was found that stripe uses credit card no.4242 4242 4242 4242 in the testing version.
+- unable to display the products in the carousel. with the help of the tutor support found that I missed the views.py. So after adding the views.py was able to see the images.
+- But still there was a bug where the slider was not functioning properly. ![](static/images/carouselwithourimg.png).
+- With the help of the tutor had to put the `forloop.first` ![](static/images/forloop.png) active.
+- After fixing with the help of tutor the carousel was working.
+- There was a error on 404 favicon. This error was due to products were named using the space. This was corrected and all the fixtures reloaded to data and the updated on S3 file in AWS. The errors have been resolved.
 
 
 # Technologies Used
