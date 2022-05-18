@@ -250,6 +250,47 @@ span.carousel-control-next-icon {
 	color: #17a2b8; /* text-info */
 }
 
+/* Favorites Page and Buttons*/
+
+.position-abs {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.btn-fav .fas {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.circle-overlay {
+    background-color: rgba(256, 256, 256, 60%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.fa-heart,
+.fa-trash-alt {
+    font-size: 18px;
+}
+
+.card-footer {
+    background-color: rgb(96, 89, 89);
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none;
+}
+
 /* Footer */
 
  
