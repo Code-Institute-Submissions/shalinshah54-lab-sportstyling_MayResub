@@ -14,33 +14,31 @@ SUCCESS_NO_BAG = 50
 # Source: modified from a slack thread, between Joe2308 and ckz8780
 @login_required()
 def view_wishlist(request):
-    """ A view that renders the favorites contents page """
+    """ A view that renders the wishlist contents page """
 
-    wishlist = None
-    try:
-        wishlist = Wishlist.objects.get(user=request.user)
-    except Wishlist.DoesNotExist:
-        pass
-
-    products = Wishlist.objects.all()
+    products = Wishlist.objects.get(user=request.user)
     query = None
     categories = None
-    sort = None
-    direction = None
 
     context = {
+        'wishlist': view_wishlist,
         'products': products,
         'search_term': query,
         'current_categories': categories,
-        'current_sorting': current_sorting,
     }
 
-    return render(request, 'wishlist/wishlist.html', context=context)
+    return render(request, 'wishlist/wishlist.html', context)
 
 
 @login_required()
 def add_to_wishlist(request, item_id):
     """ Add a specified product to the wishlist """
+    
+    wishlist = None
+    try:
+        wishlist = Wishlist.objects.get(user=request.user)
+    except Wishlist.DoesNotExist:
+        pass
 
     product = get_object_or_404(Product, pk=item_id)
     wishlist, created = Wishlist.objects.get_or_create(user=request.user)
@@ -49,13 +47,13 @@ def add_to_wishlist(request, item_id):
         wishlist=wishlist, product=product
     ).exists():
         messages.error(request, f'{product.name} is already in your wishlist')
-        return render(request, 'wishlist/wishlist.html', context)
+        return render(request, 'wishlist/wishlist.html')
 
     else:
-        Wishlist.products.add(product)
+        wishlist.products.add(product)
         messages.add_message(request, SUCCESS_NO_BAG,
                              f'{product.name} is added to your wishlist')
-        return render(request, 'wishlist/wishlist.html', context)
+        return render(request, 'wishlist/wishlist.html')
 
 
 @login_required()
@@ -68,4 +66,4 @@ def remove_from_wishlist(request, item_id):
     wishlist.products.remove(product)
     messages.add_message(request, SUCCESS_NO_BAG,
                          f'{product.name} is removed from your wishlist')
-    return render(request, 'wishlist/wishlist.html', context)
+    return render(request, 'wishlist/wishlist.html')
