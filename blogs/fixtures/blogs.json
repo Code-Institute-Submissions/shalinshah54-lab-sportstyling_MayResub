@@ -1,0 +1,67 @@
+[
+    {
+        "pk": 1,
+        "model": "blogs.blog",
+        "fields": {
+            "image": "LouisvilleSluggerMetaOne2¾USSSABat2022-12.jpg",
+            "author": 1,
+            "title": "Best Baseball Bat for$249.99",
+            "paragraph1": "One of the best bats in 2022 Louisville Slugger has a best hitting force ever created. Beautiful shape and style easy to handle and great hitting power.",
+            "paragraph2": "The bat is played by player all across USABL with perfect weight to swing. This is the most loved bat where across all the players.",
+            "paragraph3": "Best Rating for the bat.",
+            "created_on": "2022-05-22 15:50"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "blogs.blog",
+        "fields": {
+            "image": "NikeMensSportswearFleeceHoodie.jpg",
+            "author": 1,
+            "title": "Soft sports fleece Hoodie",
+            "paragraph1": "Most comfortable and soft materialed Nike Mens fleece Hoodie. This is the best hoodie with for athletes and anyone who loves hoodies.",
+            "paragraph2": "It is available in different colors and can be worn with comfort and the sweat proof.",
+            "paragraph3": "Hoodie keeps you warm and also looks nice and clean on all types men.",
+            "created_on": "2022-05-22 15:59"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "blogs.blog",
+        "fields": {
+            "image": "Rawlings11.75HOHR2GSeriesGlove2022.jpg",
+            "author": 1,
+            "title": "Best baseball glove",
+            "paragraph1": "Nice brokein glove with the best style and different colors of leather threads, best for the 1st 2nd and 3rd base players.",
+            "paragraph2": "Easy to perform with the glove.",
+            "paragraph3": "Great color selection hand stitched premium leather with the classic and modern look.",
+            "created_on": "2022-05-22 16:05"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "blogs.blog",
+        "fields": {
+            "image": "NewBalanceWomens237Shoes.jpg",
+            "author": 1,
+            "title": "Running shoe",
+            "paragraph1": "1. SWAP IN SPRING FABRICS - Despite the occasional chilly night, those heavy wool blazers, cable knit sweaters, and thick cotton tees are gonna be overkill. It's time to make a switch to spring fabrics.",
+            "paragraph2": "2. GO LIGHTER, NOT BRIGHTER - Bright colors aren't a thing for many of my private clients. For them, I recommend they go “Lighter, not brighter.” You don't need to wear school bus yellow or leperchaun green in Spring to look colorful. A shade or two lighter in your neutrals can do wonders for your Spring color palette. Switch from dark indigo to a washed blue, or a dark grey to a lighter grey for an instant color hack.",
+            "paragraph3": "3. GET LAYERED - Spring weather can be unpredictable, so focus on layering pieces to keep you warm on those chilly days. Along with warmth, layering also gives your looks added depth, helping you stand out from the basic t-shirt and jeans look.",
+            "created_on": "2022-05-22 16:05"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "blogs.blog",
+        "fields": {
+            "image": "NikeMensAirZoomPegasus38RunningShoes.jpg",
+            "author": 1,
+            "title": "The Ultimate Guide to Spring Style for Men",
+            "paragraph1": "1. SWAP IN SPRING FABRICS - Despite the occasional chilly night, those heavy wool blazers, cable knit sweaters, and thick cotton tees are gonna be overkill. It's time to make a switch to spring fabrics.",
+            "paragraph2": "2. GO LIGHTER, NOT BRIGHTER - Bright colors aren't a thing for many of my private clients. For them, I recommend they go “Lighter, not brighter.” You don't need to wear school bus yellow or leperchaun green in Spring to look colorful. A shade or two lighter in your neutrals can do wonders for your Spring color palette. Switch from dark indigo to a washed blue, or a dark grey to a lighter grey for an instant color hack.",
+            "paragraph3": "3. GET LAYERED - Spring weather can be unpredictable, so focus on layering pieces to keep you warm on those chilly days. Along with warmth, layering also gives your looks added depth, helping you stand out from the basic t-shirt and jeans look.",
+            "created_on": "2022-05-22 16:12"
+        }
+    }
+]

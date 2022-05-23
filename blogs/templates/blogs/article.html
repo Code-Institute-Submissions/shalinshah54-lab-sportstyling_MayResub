@@ -18,7 +18,7 @@
             <!-- Author -->
             <div class="row">
                 <div class="col-12">
-                    <small class="text-muted">
+                    <small class="text-muted text-black">
                         Created on {{ blog.created_on }} by {{ blog.author }}
                     </small>
                 </div>
@@ -35,12 +35,12 @@
                 </div>
                 <!-- Article text -->
                 <div class="col-12 col-lg-6 ps-lg-4">
-                    <p class="my-4 mt-lg-0">{{ blog.paragraph1 }}</p>
+                    <h2 class="my-4 mt-lg-0 text-bold text-black">{{ blog.paragraph1 }}</h2>
                     {% if blog.paragraph2 %}
-                        <p class="mb-4">{{ blog.paragraph2 }}</p>
+                        <h2 class="mb-4 text-bold text-black">{{ blog.paragraph2 }}</h2>
                     {% endif %}
                     {% if blog.paragraph2 %}
-                        <p class="mb-4">{{ blog.paragraph3 }}</p>
+                        <h2 class="mb-4 text-bold text-black">{{ blog.paragraph3 }}</h2>
                     {% endif %}
                 </div>
             </div>

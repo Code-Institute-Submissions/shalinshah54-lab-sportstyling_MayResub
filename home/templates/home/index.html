@@ -72,7 +72,7 @@
         </div>
          <!-- Articles / Blogs Section-->
     <section>
-        <div class="bg-light-rose text-center mt-5 py-5">
+        <div class="bg-light-rose text-center text-black mt-5 py-5">
             <div class="container">
                 <h2 class="text-headings text-uppercase">Articles and Blogs</h2>
                 <div class="row">
@@ -90,8 +90,8 @@
                                         src="{{ MEDIA_URL }}noimage.png" alt="{{ blog.title }}">
                                 </a>
                             {% endif %}
-                            <div class="card-body">
-                                <h6 class="card-title fw-bold">{{ blog.title }}</h6>
+                            <div class="card-body text-black">
+                                <h6 class="card-title fw-bold text-black">{{ blog.title }}</h6>
                                 <p class="card-text">{{ blog.paragraph1|truncatechars:40 }}</p>
                                 <a href="{% url 'article_detail' blog.id %}">Read the article 
                                     <i class="fas fa-arrow-right"></i>
