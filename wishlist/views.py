@@ -80,14 +80,23 @@ def add_to_wishlist(request, item_id):
     if WishlistItem.objects.filter(
         wishlist=wishlist, product=product
     ).exists():
+        
+        for i in wishlist.products.all():
+            print(i)
+            
         messages.error(request, f'{product.name} is already in your wishlist')
-        return render(request, 'wishlist/wishlist.html')
+        return render(request, 'wishlist/wishlist.html', {"wishlist": wishlist})
 
     else:
         wishlist.products.add(product)
+        wishlist.save()
+        
+        for i in wishlist.products.all():
+            print(i)
+            
         messages.add_message(request, SUCCESS_NO_BAG,
                              f'{product.name} is added to your wishlist')
-        return render(request, 'wishlist/wishlist.html')
+        return render(request, 'wishlist/wishlist.html', {"wishlist": wishlist})
 
 
 @login_required()
