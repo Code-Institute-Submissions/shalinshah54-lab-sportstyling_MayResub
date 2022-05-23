@@ -17,7 +17,7 @@
 {% block content %}
     <div class="container h-100">
         <div class="row h-100">
-            <div class="col-12 col-md-6 my-5 card m-1 ">
+            <div class="col-12 col-md-6 my-5 m-1 ">
                 <h2 class="display-5 text-black">
                     Stay Active with Sport<strong>Styling</strong>
                 </h2>
@@ -70,8 +70,45 @@
             </div>
         </div>
         </div>
-        
+         <!-- Articles / Blogs Section-->
+    <section>
+        <div class="bg-light-rose text-center mt-5 py-5">
+            <div class="container">
+                <h2 class="text-headings text-uppercase">Articles and Blogs</h2>
+                <div class="row">
+                    {% for blog in blogs %}
+                    <div class="col-12 col-md-4 mt-5 d-flex justify-content-center">
+                        <div class="card">
+                            {% if blog.image %}
+                                <a href="{% url 'article_detail' blog.id %}">
+                                    <img src="{{ blog.image.url }}" class="card-img-top" 
+                                        alt="{{ blog.title }}">
+                                </a>
+                            {% else %}
+                                <a href="{% url 'article_detail' blog.id %}">
+                                    <img class="card-img-top img-fluid" 
+                                        src="{{ MEDIA_URL }}noimage.png" alt="{{ blog.title }}">
+                                </a>
+                            {% endif %}
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold">{{ blog.title }}</h6>
+                                <p class="card-text">{{ blog.paragraph1|truncatechars:40 }}</p>
+                                <a href="{% url 'article_detail' blog.id %}">Read the article 
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                <a href="{% url 'all_articles' %}" class="btn bg-salmon mt-4" role="button">
+                    See All Articles
+                </a>
+            </div>
+        </div>
+    </section>
 {% endblock %}
+        
 
 {% block postloadjs %}
     {{ block.super }}
