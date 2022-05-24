@@ -182,6 +182,17 @@ The first step for my research was visiting sites and knowing different layouts,
 ### Logout
 - By logging out the person is still able to browse the accross the site.
 
+### Wish List
+- There is a wish list where the user can select the items/products which they like  and can add it to the favorites.
+- They can delete or keep shopping once added to the list, they can also add it to the bag where they can later check out.
+- I the wish list the user can click on the product and see the larger image with discreption where from there they can adjust the size and quantity and send it the the bag also. 
+- On clicking on the trash can icon they can delete the item from the wish list and redirect back to the keep shopping page.
+- The message also appears when the item is added too the favorites and if its already there an error message will appear.
+
+### Blogs
+- There is a blog section under the freatures area where the user can add there intrested item information and also the admin can add details about the new and old product review and detail explanation about the products.
+- On clicking on the See More will display where the blogs have been added to. 
+- Then by clicking on read more will display the full screen on the products information.
 
 ## Issues and Debugging
 - The images and the text across all the pages had issues with the margin-top ![](static/images/image-margin.png)
@@ -196,7 +207,16 @@ which was found that stripe uses credit card no.4242 4242 4242 4242 in the testi
 - With the help of the tutor had to put the `forloop.first` ![](static/images/forloop.png) active.
 - After fixing with the help of tutor the carousel was working.
 - There was a error on 404 favicon. This error was due to products were named using the space. This was corrected and all the fixtures reloaded to data and the updated on S3 file in AWS. The errors have been resolved.
-
+- There were alot of issues while adding the custom models.
+- The issues with the wishlist app was ![](static/images/name_wishlist.png). ![](static/images/name_wishlist_error.png). This was fixed by correcting the name to view_wishlist.
+- Another issue which is with the No Reserve ![](static/images/no_reserve_match.png). ![](static/images/error_fix_reserve.png). This was corrected by adding the correct url in the html file `{% 'url view_wishlist' %}`.
+- There is an error where ![](static/images/display_bug.png). The display of all the items didnt appeared.
+- I had issues with connecting my deployed site on Heroku. Spoke to the heroku and they said they had issues with github. Unable to connect to the site. After speaking to them and with the help of the tutors I was able to connect via terminal ![](static/images/heroku_issue.png).
+- After seeing that the display is not there. I logged into the admin site where I was able to see the blogs and wishlist have been added correctly. ![](static/images/admin_page.png).
+- I was able to see the display ![](static/images/display_appeared.png) but it was not aligned properly after with the help of the tutor Sean I was able to fix it by changing the html page and removing unwanted things.
+- I am getting the error of 500 on the deployed site and not on the development side. ![](static/images/550_error.png). I really don't know how to fix this.
+- There was an type errror in the html side and was corrected by making changes.
+![](static/images/type_error.png).
 
 # Technologies Used
 

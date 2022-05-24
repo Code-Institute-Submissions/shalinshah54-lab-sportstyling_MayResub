@@ -168,5 +168,15 @@ which was found that stripe uses credit card no.4242 4242 4242 4242 in the testi
 - Seeing the products page where the logo-font there is alot of whitespace this was fixed by changing the css my-5 : 3rems, For now the margin is working fine.
 - Found the Issue by the Assesser where my delpoyed site  presented with Server Error (500).
 - This Issue by partially resolved with the help of the tutor. I had to remove the extra block content form the index.html file. And by removing the 
+- There were alot of issues while adding the custom models.
+- The issues with the wishlist app was ![](static/images/name_wishlist.png). ![](static/images/name_wishlist_error.png). This was fixed by correcting the name to view_wishlist.
+- Another issue which is with the No Reserve ![](static/images/no_reserve_match.png). ![](static/images/error_fix_reserve.png). This was corrected by adding the correct url in the html file `{% 'url view_wishlist' %}`.
+- There is an error where ![](static/images/display_bug.png). The display of all the items didnt appeared.
+- I had issues with connecting my deployed site on Heroku. Spoke to the heroku and they said they had issues with github. Unable to connect to the site. After speaking to them and with the help of the tutors I was able to connect via terminal ![](static/images/heroku_issue.png).
+- After seeing that the display is not there. I logged into the admin site where I was able to see the blogs and wishlist have been added correctly. ![](static/images/admin_page.png).
+- I was able to see the display ![](static/images/display_appeared.png) but it was not aligned properly after with the help of the tutor Sean I was able to fix it by changing the html page and removing unwanted things.
+- I am getting the error of 500 on the deployed site and not on the development side. ![](static/images/550_error.png). I really don't know how to fix this.
+- There was an type errror in the html side and was corrected by making changes.
+![](static/images/type_error.png).
 
 
