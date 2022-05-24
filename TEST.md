@@ -175,7 +175,8 @@ which was found that stripe uses credit card no.4242 4242 4242 4242 in the testi
 - I had issues with connecting my deployed site on Heroku. Spoke to the heroku and they said they had issues with github. Unable to connect to the site. After speaking to them and with the help of the tutors I was able to connect via terminal ![](static/images/heroku_issue.png).
 - After seeing that the display is not there. I logged into the admin site where I was able to see the blogs and wishlist have been added correctly. ![](static/images/admin_page.png).
 - I was able to see the display ![](static/images/display_appeared.png) but it was not aligned properly after with the help of the tutor Sean I was able to fix it by changing the html page and removing unwanted things.
-- I am getting the error of 500 on the deployed site and not on the development side. ![](static/images/550_error.png). I really don't know how to fix this.
+- I am getting the error of 500 on the deployed site and not on the development side. ![](static/images/550_error.png). I really don't know how to fix this. This is across all the pages. Don't know how to fix this. 
+- This is how it looks in the development ![](static/images/wishlist_dev1.png) ![](static/images/wishlist_page_dev.png) ![](static/images/blog_dev.png) ![](static/images/blog_dev1.png)
 - There was an type errror in the html side and was corrected by making changes.
 ![](static/images/type_error.png).
 
